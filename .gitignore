@@ -1,0 +1,31 @@
+# Ignore all class files
+*.class
+
+# Ignore everything inside Virtual Classroom folder that is a class file
+/Exercise 1/Virtual Classroom/*.class
+
+# Ignore everything inside the subfolders of Exercise 2
+/Exercise 2/**/**/*.class
+
+# You can also ignore specific IDE or build tool files like below if needed:
+
+# Eclipse files
+.project
+.classpath
+.settings/
+
+# IntelliJ files
+.idea/
+*.iml
+*.iws
+
+# Maven and Gradle directories
+/target/
+/build/
+
+# Logs
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
